@@ -1,0 +1,78 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: bisque;
+}
+#main-container{
+    height: 100%;
+    padding: 10px;
+}
+.grid-imgs{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(20, 3em);
+    width: 100%;
+    height: 100%;
+    grid-gap: 10px;
+    /* justify-content: center;
+    justify-items: center; */
+}
+img{
+    width: 100%;  /* Ensure it fits the cell width */
+    height: 100%; /* Ensure it fits the cell height */
+    object-fit: cover; /* Crop while maintaining aspect ratio */
+}
+.pic1{
+    grid-column: 1 / 5;
+    grid-row: 1 / 5;
+}
+.pic2{
+    grid-column: 1 / 9;
+    grid-row: 5 / 8;
+}
+.pic3{
+    grid-column: 5 / 9;
+    grid-row: 1 / 5;
+}
+.title-msg{
+    grid-column: 2 / 8;
+    grid-row: 2 / 17;
+    font-family: "Josefin Slab", serif;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: .5em;
+    background-color: rgba(255, 255, 255, .70);
+    text-align: center;
+    z-index: 1;
+    border-radius: 15px;
+}
+.pic4{
+    grid-column: 1 / 9;
+    grid-row: 8 / 10;
+}
+.pic5{
+    grid-column: 1 / 5;
+    grid-row: 10 / 13;
+}
+.pic6{
+    grid-column: 5 / 9;
+    grid-row: 10 / 14;
+}
+.pic7{
+    grid-column: 1 / 5;
+    grid-row: 13 / 17;
+}
+.pic8{
+    grid-column: 5 / 9;
+    grid-row: 14 / 18;
+}
+.ily-sign{
+    font-family: "Josefin Slab", serif;
+    font-weight: 700;
+    grid-column: 1 / 5;
+    grid-row: 17 / 18;
+    font-size: .5em;
+    align-content: center;
+    text-align: center;
+}
