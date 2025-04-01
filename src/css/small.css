@@ -75,4 +75,17 @@ img{
     font-size: .5em;
     align-content: center;
     text-align: center;
+    border: 2px solid #E1908C;
+}
+.btn{
+    background-color: azure;
+    max-width: 45%; 
+    padding: .4em;
+    border-radius: 15px;
+    border: 1px solid;
+    justify-self: center;
+}
+.pic9{
+    grid-column: 1 / 9;
+    grid-row: 18 / 21;
 }
